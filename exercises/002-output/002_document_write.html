@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--também serve para escrever na tela, entretanto, há uma anomalia!: document.write("hello world")-->
+
+    <h1>usando o document.write</h1>
+    <p>quando apertar nesse input, todo esse conteúdo do body irá apagar</p><br>
+    <input type="button" onclick="clicar()" value="botão"> <!--escrevi uma função para demonstrar-->
+    
+   
+
+    <script>
+        document.write("se apertares no botão, irá apagar");
+
+        //função em java_script
+        function clicar(){
+            document.write("eu falei o que iria ocorrer")
+        }
+    </script>
+</body>
+</html>

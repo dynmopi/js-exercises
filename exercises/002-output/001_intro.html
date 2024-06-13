@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formas de escrever na tela</h1>
+
+    <!--
+        para substituir algum arquivo HTML: innerHTML
+        para mostrar a saida: document.write("hello world")
+        para mostrar uma caixa: window.alert("hello world")
+        para escrever no console: console.log("hello world")
+
+        consiga um elemento do html utilizando: document.getElementById("nome-da-id");
+    -->
+
+    <p id="paragrafo"></p>
+
+    <script>
+        document.getElementById("paragrafo").innerHTML = "esse texto vai aparecer no html";    
+
+    </script>
+</body>
+</html>

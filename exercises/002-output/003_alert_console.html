@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>usando o window.alert e o console.log</h1>
+    <p> 
+        essa caixa que foi gerada quando entrou no browser, é dada através de uma função interna
+        cujo é o window.alert(). É possível usar apenas o alert, clique nesse botão e verá a demonstração.
+
+    </p>
+        <input type="button" onclick="clicar()" value="botão">
+
+        <!--o console.log é utilizado principalmente no compilador do javascript, no nodeJS. Também para escrever na parte do server do browser. Encontre-o procurando no console do browser-->
+    
+    <script>
+        window.alert("olá mundo");
+
+        console.log("isso é segredo");
+        function clicar(){
+            alert('demonstração')
+        }
+    </script>
+</body>
+</html>

@@ -1,2 +1,1 @@
-# projects
- Projetos de programação
+# Exercícios básicos de JavaScript

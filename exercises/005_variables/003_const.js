@@ -16,7 +16,7 @@ const cars = ["Honda", "BMW"];
 console.log(cars);
 
 //você pode alterar um ELEMENTO da matriz constante
-cars[0] = "Chevrolet";
+cars[0] = "Chevrolet"; // a posicao 0 é a primeira posicao no mundo da programacao
 console.log(cars)
 
 //da para adicionar um elemento também

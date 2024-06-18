@@ -24,7 +24,7 @@ let n = 10;
 n += 10;
 
 /*
-
+assignment operators
 =	x = y	x = y
 +=	x += y	x = x + y
 -=	x -= y	x = x - y

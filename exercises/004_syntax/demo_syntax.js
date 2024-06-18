@@ -5,7 +5,8 @@ valores fixos são chamados de literais
 e valores variados são chamados de variáveis
 
     - Duas sintax fixos importantes no Js
-    String: podem ser escritos com aspas simples ou duplas
+    String: podem ser escritos com aspas simples ou duplas; é possível mesclar as single quotes
+    e double quotes
     Numbers: podem ser com casas decimais ou sem casas decimais
 
     - Variáveis: var, let e const*/

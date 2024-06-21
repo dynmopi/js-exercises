@@ -8,7 +8,7 @@ let paragrafo = document.querySelector('p'); // pegando elemento p e atribuindo 
 paragrafo.innerHTML = 'Digite um número entre 1 a 10'; // innerHTML escreve "dentro" do elemento html
 */
 
-let numeroSecreto = numero_secreto(); // chama a funcao para armazenar na variavel, é preciso do return
+let numeroSecreto = numero_secreto(); // chama a funcao para armazenar na variavel. É preciso do return
 let tentativas = 1;
 
 function exibirTexto(tag, texto){
@@ -20,7 +20,7 @@ exibirTexto('h1', 'Jogo do número secreto'); // tag, texto
 exibirTexto('p', 'Digite um número entre 1 a 10'); // tag, texto
 // lembre-se de funções compostas na matemática
 
-function verificarChute(){
+function verificarChute(){ // é ativado através do onclick
     // não se esqueça de colocar o ".value" para especificar que queres pegar somente o valor dentro do input do html
     let chute = document.querySelector('input').value;
     if (chute == numeroSecreto){
@@ -30,7 +30,7 @@ function verificarChute(){
         let mensagemTentativas = `Você acertou o número secreto com ${tentativas} ${palavraTentativa}`
 
         exibirTexto('p', mensagemTentativas);
-        
+        document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
         if (chute > numeroSecreto){
             exibirTexto('p', 'O número secreto é menor');
@@ -46,4 +46,7 @@ function numero_secreto(){
     return parseInt(Math.random() * 10 + 1); // retorna até aonde foi chamado
 }
 
+function reiniciarJogo(){
+    
+}
 // Nome de função não pode ser nome de variável!!
